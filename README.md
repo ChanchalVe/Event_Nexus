@@ -1,1 +1,33 @@
-# Here are your Instructions
+# EventNexus 🎉
+
+> The new standard for event management — discover, organize, and experience events like never before.
+
+## 🚀 Tech Stack
+**Frontend:** React 18, React Router v6, Tailwind CSS, shadcn/ui, Lucide React, date-fns, qrcode.react, Sonner  
+**Backend:** Python / FastAPI, PostgreSQL, JWT Auth
+
+## ✨ Features
+**Attendees**
+- Browse & filter events by category, date, location type
+- One-click registration with digital QR ticket
+- Download QR codes, leave reviews, real-time seat updates
+
+**Organizers**
+- Create & manage events with banner image upload
+- View registrations & export to CSV
+- Analytics dashboard
+
+## ⚙️ Setup
+```bash
+git clone https://github.com/your-username/eventnexus.git
+cd eventnexus/frontend
+npm install && npm start
+```
+
+## 🔑 Environment Variables
+```env
+REACT_APP_BACKEND_URL=http://localhost:8000
+```
+
+## 📄 License
+Built for the **Infinite Locus Hackathon** · © 2026 EventNexus
