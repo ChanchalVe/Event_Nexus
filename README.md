@@ -4,6 +4,7 @@
 
 ## 🚀 Tech Stack
 **Frontend:** React 18, React Router v6, Tailwind CSS
+
 **Backend:** Python / FastAPI, PostgreSQL, JWT Auth
 
 ## ✨ Features
