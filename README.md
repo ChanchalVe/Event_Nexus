@@ -3,7 +3,7 @@
 > The new standard for event management — discover, organize, and experience events like never before.
 
 ## 🚀 Tech Stack
-**Frontend:** React 18, React Router v6, Tailwind CSS, shadcn/ui, Lucide React, date-fns, qrcode.react, Sonner  
+**Frontend:** React 18, React Router v6, Tailwind CSS
 **Backend:** Python / FastAPI, PostgreSQL, JWT Auth
 
 ## ✨ Features
