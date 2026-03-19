@@ -17,17 +17,3 @@
 - View registrations & export to CSV
 - Analytics dashboard
 
-## ⚙️ Setup
-```bash
-git clone https://github.com/your-username/eventnexus.git
-cd eventnexus/frontend
-npm install && npm start
-```
-
-## 🔑 Environment Variables
-```env
-REACT_APP_BACKEND_URL=http://localhost:8000
-```
-
-## 📄 License
-Built for the **Infinite Locus Hackathon** · © 2026 EventNexus
