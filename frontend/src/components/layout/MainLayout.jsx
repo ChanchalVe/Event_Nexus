@@ -1,39 +1,4 @@
-// import React from 'react';
-// import { Outlet, Navigate } from 'react-router-dom';
-// import { useAuth } from '@/context/AuthContext';
-// import { Sidebar } from './Sidebar';
-// import { Toaster } from '@/components/ui/sonner';
 
-// export const MainLayout = () => {
-//     const { isAuthenticated, loading } = useAuth();
-
-//     if (loading) {
-//         return (
-//             <div className="min-h-screen flex items-center justify-center bg-slate-50">
-//                 <div className="flex flex-col items-center gap-4">
-//                     <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-//                     <p className="text-slate-600">Loading...</p>
-//                 </div>
-//             </div>
-//         );
-//     }
-
-//     if (!isAuthenticated) {
-//         return <Navigate to="/login" replace />;
-//     }
-
-//     return (
-//         <div className="min-h-screen bg-slate-50">
-//             <Sidebar />
-//             <main className="main-content">
-//                 <Outlet />
-//             </main>
-//             <Toaster position="top-right" richColors />
-//         </div>
-//     );
-// };
-
-// export default MainLayout;
 
 
 import React from 'react';

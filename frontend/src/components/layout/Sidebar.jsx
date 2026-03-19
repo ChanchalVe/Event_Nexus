@@ -1,99 +1,4 @@
-// import React from 'react';
-// import { NavLink, useNavigate } from 'react-router-dom';
-// import { useAuth } from '@/context/AuthContext';
-// import { 
-//     Calendar, 
-//     LayoutDashboard, 
-//     Ticket, 
-//     PlusCircle, 
-//     BarChart3, 
-//     Bell, 
-//     LogOut, 
-//     User,
-//     Home
-// } from 'lucide-react';
-// import { Button } from '@/components/ui/button';
 
-// export const Sidebar = () => {
-//     const { user, logout } = useAuth();
-//     const navigate = useNavigate();
-//     const isOrganizer = user?.role === 'organizer';
-
-//     const handleLogout = () => {
-//         logout();
-//         navigate('/login');
-//     };
-
-//     const userLinks = [
-//         { to: '/dashboard', icon: LayoutDashboard, label: 'Browse Events' },
-//         { to: '/my-tickets', icon: Ticket, label: 'My Tickets' },
-//         { to: '/notifications', icon: Bell, label: 'Notifications' },
-//     ];
-
-//     const organizerLinks = [
-//         { to: '/dashboard', icon: LayoutDashboard, label: 'Browse Events' },
-//         { to: '/organizer/events', icon: Calendar, label: 'My Events' },
-//         { to: '/organizer/create', icon: PlusCircle, label: 'Create Event' },
-//         { to: '/organizer/analytics', icon: BarChart3, label: 'Analytics' },
-//         { to: '/notifications', icon: Bell, label: 'Notifications' },
-//     ];
-
-//     const links = isOrganizer ? organizerLinks : userLinks;
-
-//     return (
-//         <aside className="sidebar" data-testid="sidebar">
-//             <div className="p-6 border-b border-slate-200">
-//                 <NavLink to="/" className="flex items-center gap-2">
-//                     <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-//                         <Calendar className="w-6 h-6 text-white" />
-//                     </div>
-//                     <span className="text-xl font-bold text-slate-800" style={{ fontFamily: 'Barlow Condensed, sans-serif' }}>
-//                         EventMaster
-//                     </span>
-//                 </NavLink>
-//             </div>
-
-//             <nav className="p-4 space-y-1">
-//                 {links.map((link) => (
-//                     <NavLink
-//                         key={link.to}
-//                         to={link.to}
-//                         className={({ isActive }) =>
-//                             `sidebar-link ${isActive ? 'active' : ''}`
-//                         }
-//                         data-testid={`nav-${link.label.toLowerCase().replace(/\s/g, '-')}`}
-//                     >
-//                         <link.icon className="w-5 h-5" />
-//                         <span>{link.label}</span>
-//                     </NavLink>
-//                 ))}
-//             </nav>
-
-//             <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-slate-200 bg-white">
-//                 <div className="flex items-center gap-3 px-4 py-3 mb-2">
-//                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-//                         <User className="w-5 h-5 text-blue-600" />
-//                     </div>
-//                     <div className="flex-1 min-w-0">
-//                         <p className="text-sm font-medium text-slate-800 truncate">{user?.name}</p>
-//                         <p className="text-xs text-slate-500 capitalize">{user?.role}</p>
-//                     </div>
-//                 </div>
-//                 <Button
-//                     variant="ghost"
-//                     className="w-full justify-start text-slate-600 hover:text-red-600 hover:bg-red-50"
-//                     onClick={handleLogout}
-//                     data-testid="logout-btn"
-//                 >
-//                     <LogOut className="w-5 h-5 mr-3" />
-//                     Logout
-//                 </Button>
-//             </div>
-//         </aside>
-//     );
-// };
-
-// export default Sidebar;
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
@@ -162,7 +67,7 @@ export const Sidebar = () => {
                         color: '#f0eeff',
                         letterSpacing: '0.02em',
                     }}>
-                        EventMaster
+                        EventNexus
                     </span>
                 </NavLink>
             </div>
